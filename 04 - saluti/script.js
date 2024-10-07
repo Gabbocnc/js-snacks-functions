@@ -3,7 +3,7 @@
 const name = 'Mario';
 let salutare = salutaMario(name)
 // Dichiara la funzione qui.
-function salutaMario(nome){
+function salutaMario(name){
     return `Ciao ${name}`
 }
 
