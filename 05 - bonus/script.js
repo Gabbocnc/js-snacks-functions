@@ -12,9 +12,9 @@ let saluto;
 function salutaMario(name){
     let ora = new Date().getHours();
 
-    if ( ora < 13){
+    if ( ora <= 13){
         saluto = 'Buongiorno';
-    }else if (ora < 17){
+    }else if (ora <= 17){
         saluto = 'Buon pomeriggio';
     }else{
         saluto = 'Buonasera';
