@@ -6,10 +6,15 @@ e buonasera se è sera (oltre le 17)
 */
 
 const name = 'Mario';
-
+let mattina = `Buongiorno ${name}`
+let pomeriggio = `Buon pomeriggio ${name}`
+let sera = `Buonasera ${name}`
+console.log(mattina, pomeriggio, sera);
 
 // Dichiara la funzione qui.
+function getOrario (name){
 
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 

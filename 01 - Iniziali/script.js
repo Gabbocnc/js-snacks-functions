@@ -11,9 +11,12 @@ function findFirstLetter(names) {
     return initials;
 }
 // Invoca la funzione qui e stampa il risultato in console
-console.log(initials);
-
+/* console.log(initials);  */
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
+
+let getinitials = names.map(name => name[0])
+
+console.log(initials);
 
 
