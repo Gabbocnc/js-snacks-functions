@@ -16,11 +16,4 @@ console.log(initials);
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
 
-//bonus
-/* const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
-let iniziali = TrovaIniziali(names);
 
-let TrovaIniziali = names => names.map(name => name[0]);
-
-
-console.log(iniziali);  */
