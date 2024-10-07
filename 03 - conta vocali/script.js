@@ -6,7 +6,7 @@ let count = 0;
 let result = getVocali(word)
 // Dichiara la funzione qui.
 function getVocali(word){
-    for (let i = 0; i < word.lenght; i++){
+    for (let i = 0; i < word.length; i++){
         
         if (vocali.includes(word[i])) {
             count++;
@@ -14,11 +14,9 @@ function getVocali(word){
     }
     return count
 }
-console.log(result);
-
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+console.log(result);
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
