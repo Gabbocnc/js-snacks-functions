@@ -2,12 +2,23 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
+let letter = 'A';
+let risultato = filtraPerLettera(names, letter);
 
 // Dichiara la funzione qui.
-
+function filtraPerLettera(words, letter) {
+    const filteredWords = [];
+    for (let i = 0; i < words.length; i++) {
+        if (words[i][0].toLowerCase() === letter.toLowerCase()) {
+            filteredWords.push(words[i]);
+        }
+    }
+    return filteredWords;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
+console.log(risultato);
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
