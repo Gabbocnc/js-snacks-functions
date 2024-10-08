@@ -9,7 +9,7 @@ let risultato = filtraPerLettera(names, letter);
 function filtraPerLettera(words, letter) {
     const filteredWords = [];
     for (let i = 0; i < words.length; i++) {
-        if (words[i][0].toLowerCase() === letter.toLowerCase()) {
+        if (words[i][0] === letter) {
             filteredWords.push(words[i]);
         }
     }
